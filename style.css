@@ -1,0 +1,78 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    }
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #82d9a9;
+    color: #fff;
+    padding: 20px;
+    }
+    .header__nav {
+    display: flex;
+    }
+    .header__link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    }
+    .header__link:hover {
+    color: #ff0000;
+    }
+    .header__link::before {
+        content: "🧘‍♂️";
+    }
+    .content {
+    padding: 20px;
+    }
+    .footer {
+    background-color: #81d0a7;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        grid-template-rows: repeat(2,1fr);
+        background-color: rgb(19, 158, 114);
+        border-radius: 10px;
+        justify-content: stretch;
+        align-self: stretch;
+        row-gap: 10px;
+
+    }
+    .container__img {
+        width: 100%;
+        height: auto;
+    }
+    .container__D{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(138, 200, 161);
+    }
+    .container__D__item {
+        color: #fff;
+        
+    }
+    .container__D__item ::before {
+content:"💪" ;
+    }
+    .container__D__link {
+      color: #fff;  
+    }
+    .container__D__link:hover {
+        color: #ff0000;
+    }
+
+    .footer__cont :hover{
+        color: #ff0000;
+    }
